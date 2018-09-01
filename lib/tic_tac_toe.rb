@@ -153,4 +153,3 @@ def play(board)
     nil
   end
 end
-end
