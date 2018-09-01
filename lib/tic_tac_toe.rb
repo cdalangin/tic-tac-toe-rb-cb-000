@@ -140,5 +140,4 @@ else
   end
 end
 
-def play(board)
   
