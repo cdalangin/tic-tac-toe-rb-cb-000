@@ -141,7 +141,7 @@ else
 end
 
 def play(board)
-  input=gets
+
   if over?(board)
     turn(board)
   end
