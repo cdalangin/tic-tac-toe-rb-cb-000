@@ -146,5 +146,5 @@ def play(board)
     turn(board)
   end
   if won?(board)
-    return 
+    return "Congratulations #{winner[board]}!"
 end
