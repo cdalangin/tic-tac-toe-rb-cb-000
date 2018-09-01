@@ -147,4 +147,5 @@ def play(board)
   end
   if won?(board)
     return "Congratulations #{winner[board]}!"
+  end
 end
