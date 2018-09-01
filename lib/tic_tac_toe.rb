@@ -143,6 +143,7 @@ end
 def play(board)
   while over?(board) == false
     turn(board)
+    won?(board)
   end
   if winner(board) != nil
     return "Congratulations #{winner[board]}!"
