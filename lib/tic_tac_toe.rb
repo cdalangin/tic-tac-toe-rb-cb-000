@@ -145,9 +145,11 @@ def play(board)
     turn(board)
     won?(board)
   end
-  if winner(board)
+  if winner(board) == true
     puts "Congratulations #{winner[board]}!"
-  elsif draw?(board)
+  elsif draw?(board) == true
     puts "Cat's Game!"
+  else
+    nil
   end
 end
