@@ -7,4 +7,5 @@ input=0
 input_to_index(input)
 
 puts "Welcome to Tic Tac Toe"
-board = 
+board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
+play(board)
