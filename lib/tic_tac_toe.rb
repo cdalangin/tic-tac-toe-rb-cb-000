@@ -129,11 +129,11 @@ end
 def winner(board)
   if won?(board)
   won?(board).each do |i|
-    if board[i] == "X"
+    if board[i] == "O"
+      return "O"
+    else
       return "X"
-  else
-    return "O"
- end
+    end
  end
 else
     return nil
