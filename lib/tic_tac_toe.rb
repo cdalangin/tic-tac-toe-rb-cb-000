@@ -143,4 +143,5 @@ end
 def play(board)
   if over?(board) != false
     turn(board)
+  end
 end
