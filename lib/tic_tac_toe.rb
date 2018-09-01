@@ -50,7 +50,7 @@ index=input_to_index(input)
   if valid_move?(board, index) == false
   turn(board)
 else
-  move(board, index, value ="X")
+  move(board, index, current_player(board))
   display_board(board)
 end
 end
