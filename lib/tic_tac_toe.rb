@@ -145,7 +145,9 @@ def play(board)
   while over?(board) == false
     turn(board)
   end
-  if won?(board) && over?(board)
+  if winner(board) != nil
     return "Congratulations #{winner[board]}!"
+  elsif draw?(board)
+    return "Cat's Game!"
   end
 end
